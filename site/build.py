@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 """Build the curated public site from repository records. Python standard library only."""
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import html
 from catalog import build_catalog, template_section
 from orbit import build_orbit
